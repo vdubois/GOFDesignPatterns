@@ -30,4 +30,35 @@
   <dependencies>
 
   </dependencies>
+  
+  <description>GOF Design Patterns in Java</description>
+  
+  <developers>
+        <developer>
+            <id>vdubois</id>
+            <name>Vincent Dubois</name>
+            <roles>
+                <role>Lead Developer</role>
+            </roles>
+            <url />
+        </developer>
+  </developers>
+  
+  <distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>Local Repository</name>
+			<url>http://localhost:8081/nexus/content/repositories/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>Local Repository</name>
+			<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+		</snapshotRepository>
+  </distributionManagement>
+  <scm>
+		<connection>scm:git:http://github.com/vdubois/GOFDesignPatterns.git</connection>
+		<developerConnection>scm:git:https://github.com/vdubois/GOFDesignPatterns.git</developerConnection>
+		<url>https://github.com/vdubois/GOFDesignPatterns</url>
+  </scm>
 </project>
