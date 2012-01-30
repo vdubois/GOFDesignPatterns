@@ -2,12 +2,9 @@ package org.vdubois.designpatterns.structural.decorator;
 
 
 /**
- * DecoratorMain.java
- *
- * @author CDM/EPA
+ * Classe de test du design pattern Décorateur
+ * @author Vincent Dubois
  * @version 1.0
- * @date 24 janv. 2012 
- * @copyright La Poste 2012
  */
 public class DecoratorMain {
 
